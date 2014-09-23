@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1411474001 source:/home/student/Desktop/Rzeznia/Rzeznia/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"Zwierzeta.h"
+
+1411471047 source:/home/student/Desktop/Rzeznia/Rzeznia/Zwierzeta.cpp
+	"Zwierzeta.h"
+
+1411478727 /home/student/Desktop/Rzeznia/Rzeznia/Zwierzeta.h
+	<iostream>
+	<cstdlib>
+
+1411469744 /home/student/Desktop/Rzeznia/Rzeznia/Zwierze_do_uboju.h
+	<iostream>
+	<cstdlib>
+
+1411475220 source:/home/student/Desktop/Rzeznia/Rzeznia/Weterynarz.cpp
+	"weterynarz.h"
+
+1411475220 /home/student/Desktop/Rzeznia/Rzeznia/weterynarz.h
+	<iostream>
+	"Zwierzeta.h"
+
