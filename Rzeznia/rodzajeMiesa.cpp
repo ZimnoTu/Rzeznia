@@ -1,5 +1,5 @@
 #include "biblioteki.h"
 
-
+///rodzaje
 
 
