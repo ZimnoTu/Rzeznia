@@ -1,14 +1,11 @@
 # depslib dependency file v1.0
-1411474001 source:/home/student/Desktop/Rzeznia/Rzeznia/main.cpp
-	<iostream>
-	<cstdlib>
-	<ctime>
+1411550043 source:/home/student/Desktop/Rzeznia/Rzeznia/main.cpp
+	"biblioteki.h"
+
+1411549073 source:/home/student/Desktop/Rzeznia/Rzeznia/Zwierzeta.cpp
 	"Zwierzeta.h"
 
-1411471047 source:/home/student/Desktop/Rzeznia/Rzeznia/Zwierzeta.cpp
-	"Zwierzeta.h"
-
-1411478727 /home/student/Desktop/Rzeznia/Rzeznia/Zwierzeta.h
+1411548854 /home/student/Desktop/Rzeznia/Rzeznia/Zwierzeta.h
 	<iostream>
 	<cstdlib>
 
@@ -16,10 +13,31 @@
 	<iostream>
 	<cstdlib>
 
-1411475220 source:/home/student/Desktop/Rzeznia/Rzeznia/Weterynarz.cpp
+1411544707 source:/home/student/Desktop/Rzeznia/Rzeznia/Weterynarz.cpp
 	"weterynarz.h"
-
-1411475220 /home/student/Desktop/Rzeznia/Rzeznia/weterynarz.h
-	<iostream>
 	"Zwierzeta.h"
+
+1411549073 /home/student/Desktop/Rzeznia/Rzeznia/weterynarz.h
+	"Zwierzeta.h"
+
+1411551020 /home/student/Desktop/Rzeznia/Rzeznia/przerobZwierzat.h
+	"weterynarz.h"
+	"Zwierzeta.h"
+
+1411548886 /home/student/Desktop/Rzeznia/Rzeznia/biblioteki.h
+	<iostream>
+	<cstdlib>
+	<cstdlib>
+	<ctime>
+	<vector>
+	"Zwierzeta.h"
+	"weterynarz.h"
+	"przerobZwierzat.h"
+	"produkcjaMiesa.h"
+
+1411557290 /home/student/Desktop/Rzeznia/Rzeznia/produkcjaMiesa.h
+	"biblioteki.h"
+
+1411557279 source:/home/student/Desktop/Rzeznia/Rzeznia/przerobZwierzat.cpp
+	"przerobZwierzat.h"
 

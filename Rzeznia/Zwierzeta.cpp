@@ -13,11 +13,5 @@ void Zwierze::poka()
 {
     cout << "Gatunek: " << gatunek<< endl;
     cout << "Id: " << numerID << endl;
-    //cout << "Zdrowe: " << (zdrowe? "Tak": "Nie")<<endl;///NIE POWINNO BYC WIDOCZNE POKI NIE ZBADANE
-}
 
-//bool Zwierze::setZdrowe(bool zdrowe)
-//{
-//    cout << zdrowe? cout<< "tak": cout << "nie" << endl;
-//    return zdrowe;
-//}
+}

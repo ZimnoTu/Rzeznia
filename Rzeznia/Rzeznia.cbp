@@ -12,6 +12,7 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c++11" />
 					<Add option="-g" />
 				</Compiler>
 			</Target>
@@ -32,7 +33,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Weterynarz.cpp" />
+		<Unit filename="Zwierzeta.cpp" />
+		<Unit filename="Zwierzeta.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="weterynarz.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

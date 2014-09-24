@@ -11,16 +11,15 @@ protected:
     bool zdrowe;
 
 public:
-
-
     string gatunek;
 
-    Zwierze() {numerID = rand()%500+100; }
+    Zwierze() {numerID = rand()%500+100; zdrowe = false;}
     virtual ~Zwierze () {cout<< "Zlikwidowano zwierze"<< endl; }
 
     virtual void poka();
-    //bool setZdrowe(bool zdrowe); POWINNO DZIALAC INACZEJ
 
+    bool stanZdrowia() {return zdrowe;}
+    void set_stanZdrowia(bool czyZdrowe) {this->zdrowe = czyZdrowe;} // tutaj bedzie szedl wyrok od weterynarza
 
 };
 
