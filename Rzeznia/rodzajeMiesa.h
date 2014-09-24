@@ -6,7 +6,7 @@ protected:
     string rodzajMiesa;
 
 public:
-    virtual void pokazJakieMieso() = 0;
+    virtual void pokazMieso() = 0;
     virtual ~Mieso () { }
 };
 
@@ -17,6 +17,7 @@ protected:
     double udziec;
 
 public:
-    void pokazJakieMieso() {cout << "Rodzaj miesa: "<< rodzajMiesa << endl;}
+    Wolowina();
+    virtual void pokazMieso();
 
 };

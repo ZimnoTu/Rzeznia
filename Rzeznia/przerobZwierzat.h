@@ -5,8 +5,12 @@
 class PrzerobZwierzat{
 
 public:
-    virtual string zakonczZywot(Zwierze *zwierzak) = 0; //i tak mam klase abstrakcyjna
+    virtual string zakonczZywot(Zwierze *zwierzak) = 0; //przerobic potem na strukture, zeby zwracalo gatunek i wage
     virtual ~PrzerobZwierzat() { }
+
+//przyjaciele:
+
+    ///friend class Rzeznik;
 };
 
 class Spalarnia : public PrzerobZwierzat{
@@ -21,10 +25,10 @@ public:
     }
 };
 
-class Rzeznia : public PrzerobZwierzat{
+class Rzeznik : public PrzerobZwierzat{
 
 public:
-    virtual ~Rzeznia() { }
+    virtual ~Rzeznik() { cout << "Rzeznik konczy zmiane"<< endl;}
     virtual string zakonczZywot(Zwierze *zwierzak);
 
 

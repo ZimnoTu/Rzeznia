@@ -13,36 +13,51 @@ int main()
     Spalarnia spal;
     Rzeznia rzeznia;
 
+    vector <Krowa*> krowki; //wektor wskaznikow na krowy lepsza by byla lista dwukierunkowa
+    krowki.push_back(new Krowa);
+    krowki.push_back(new Krowa);
+    krowki.push_back(new Krowa);
+    krowki.push_back(new Krowa);
+    krowki.push_back(new Krowa);
+    krowki.push_back(new Krowa);
+    krowki.push_back(new Krowa);
+    krowki.push_back(new Krowa);
+    krowki.push_back(new Krowa);
+    krowki.push_back(new Krowa);
 
-    vector <Krowa*> krowki; //wektor wskaznikow na krowy
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
+
+   // rzeznia.zabijZwierze(krowki.at(8));
 
 
 //masowe badanie krow przez weterynarza - mozna by bylo to wrzucic gdzies indziej
-    int rozmiar_wektora = krowki.size();
-    for (int i = 0; i <rozmiar_wektora; ++i)
-    {
-        vet.zbadaj(krowki.at(i));
-        if(krowki.at(i) -> stanZdrowia() == false)
+int i = 1;
+while(krowki.size() !=0)
+{
+   vet.zbadaj(krowki.at(0));
+        if(krowki.at(0) -> stanZdrowia() == false)
         {
-            cout << i+1 << ".\033[036m CHORE \033[0m";
-            spal.zakonczZywot(krowki.at(i)); // krowa leci do spalarni
+            cout << i << ".\033[036m CHORE \033[0m";
+            Zwierze *chore = krowki.at(0);
+            krowki.erase(krowki.begin()+0);
+            spal.zakonczZywot(chore); // krowa leci do spalarni
         }
         else
         {
-        cout << i+1 << ". ZDROWE ";
-        rzeznia.zakonczZywot(krowki.at(i)); //krowa zostaje zabita i przekazana do rozparcelowania
+        cout << i<< ". ZDROWE ";
+
+         Zwierze *zdrowe = krowki.at(0);
+            krowki.erase(krowki.begin()+0);
+          //  rzeznia.rzeznik->zakonczZywot(zdrowe); //krowa zostaje zabita i przekazana do rozparcelowania
+            rzeznia.zabijZwierze(zdrowe);
         }
-    }
+        i++;
+}
+
+
+
+
+ //   Wolowina w;
+ //   w.pokazMieso();
 
     return 0;
 }

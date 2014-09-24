@@ -1,6 +1,6 @@
 #include "przerobZwierzat.h"
 
-string Rzeznia::zakonczZywot(Zwierze *zwierzak)//wywolane przez glownego Rzeznika, ktory rozdzieli
+string Rzeznik::zakonczZywot(Zwierze *zwierzak)//wywolane przez glownego Rzeznika, ktory rozdzieli
 {
         cout << zwierzak -> gatunek<< " zotala zabita i przekazana do przerobki." << endl;
         //zapamietanie info o gatunku:

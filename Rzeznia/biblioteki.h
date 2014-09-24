@@ -9,6 +9,7 @@
 #include "Zwierzeta.h"
 #include "weterynarz.h"
 #include "przerobZwierzat.h"
-#include "produkcjaMiesa.h"
+#include "rodzajeMiesa.h"
+#include "Rzeznia.h"
 
 using namespace std;
