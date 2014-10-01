@@ -1,6 +1,7 @@
 #pragma once
 #include "biblioteki.h"
 
+
 class Mieso{
 protected:
     string rodzajMiesa;
@@ -20,4 +21,15 @@ public:
     Wolowina();
     virtual void pokazMieso();
 
+};
+
+class Wieprzowina: public Mieso{
+protected:
+    double lopatka;
+    double golonka;
+    double schab;
+
+public:
+    Wieprzowina();
+    virtual void pokazMieso();
 };

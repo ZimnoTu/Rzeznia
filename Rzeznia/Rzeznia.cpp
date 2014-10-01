@@ -1,12 +1,9 @@
 #include "Rzeznia.h"
 
-void Rzeznia::zabijZwierze(Zwierze *zwierzak)
+string Rzeznia::zabijZwierze(Zwierze *zwierzak)
 {
     string mieso;
-    cout << " Rzeznik na miejscu!"<< endl;
-    //mieso =
-
+    //cout << " Rzeznia przyjmuje towar"<< endl;
     mieso = rzeznik->zakonczZywot(zwierzak);
-
-    cout << "\t\t" << mieso << endl;
+    return mieso;
 }

@@ -11,5 +11,6 @@
 #include "przerobZwierzat.h"
 #include "rodzajeMiesa.h"
 #include "Rzeznia.h"
+#include "produkcjaMiesa.h"
 
 using namespace std;

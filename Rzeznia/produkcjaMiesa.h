@@ -1,10 +1,6 @@
 #pragma once
-#include "biblioteki.h"
+#include <iostream>
+#include "rodzajeMiesa.h"
 
-class produckjaMiesa{
-public:
-
-   // virtual
-};
-
+void rozpoznajRodzajMiesa (string mieso);
 

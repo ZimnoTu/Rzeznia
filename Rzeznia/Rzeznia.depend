@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1411565243 source:/home/student/Desktop/Rzeznia/Rzeznia/main.cpp
+1412189499 source:/home/student/Desktop/Rzeznia/Rzeznia/main.cpp
 	"biblioteki.h"
 
-1411549073 source:/home/student/Desktop/Rzeznia/Rzeznia/Zwierzeta.cpp
+1412189239 source:/home/student/Desktop/Rzeznia/Rzeznia/Zwierzeta.cpp
 	"Zwierzeta.h"
 
-1411548854 /home/student/Desktop/Rzeznia/Rzeznia/Zwierzeta.h
+1412188575 /home/student/Desktop/Rzeznia/Rzeznia/Zwierzeta.h
 	<iostream>
 	<cstdlib>
 
@@ -13,18 +13,18 @@
 	<iostream>
 	<cstdlib>
 
-1411544707 source:/home/student/Desktop/Rzeznia/Rzeznia/Weterynarz.cpp
+1412183269 source:/home/student/Desktop/Rzeznia/Rzeznia/Weterynarz.cpp
 	"weterynarz.h"
 	"Zwierzeta.h"
 
-1411549073 /home/student/Desktop/Rzeznia/Rzeznia/weterynarz.h
+1412183269 /home/student/Desktop/Rzeznia/Rzeznia/weterynarz.h
 	"Zwierzeta.h"
 
-1411565011 /home/student/Desktop/Rzeznia/Rzeznia/przerobZwierzat.h
+1412183269 /home/student/Desktop/Rzeznia/Rzeznia/przerobZwierzat.h
 	"weterynarz.h"
 	"Zwierzeta.h"
 
-1411561856 /home/student/Desktop/Rzeznia/Rzeznia/biblioteki.h
+1412188021 /home/student/Desktop/Rzeznia/Rzeznia/biblioteki.h
 	<iostream>
 	<cstdlib>
 	<cstdlib>
@@ -35,28 +35,32 @@
 	"przerobZwierzat.h"
 	"rodzajeMiesa.h"
 	"Rzeznia.h"
+	"produkcjaMiesa.h"
 
-1411557290 /home/student/Desktop/Rzeznia/Rzeznia/produkcjaMiesa.h
-	"biblioteki.h"
+1412189674 /home/student/Desktop/Rzeznia/Rzeznia/produkcjaMiesa.h
+	<iostream>
+	"rodzajeMiesa.h"
 
-1411561784 source:/home/student/Desktop/Rzeznia/Rzeznia/przerobZwierzat.cpp
+1412187360 source:/home/student/Desktop/Rzeznia/Rzeznia/przerobZwierzat.cpp
 	"przerobZwierzat.h"
 
-1411560263 /home/student/Desktop/Rzeznia/Rzeznia/rodzajeMiesa.h
+1412188907 /home/student/Desktop/Rzeznia/Rzeznia/rodzajeMiesa.h
 	"biblioteki.h"
 
-1411560256 source:/home/student/Desktop/Rzeznia/Rzeznia/rodzajeMiesa.cpp
+1412188920 source:/home/student/Desktop/Rzeznia/Rzeznia/rodzajeMiesa.cpp
 	"biblioteki.h"
 
-1411560585 /home/student/Desktop/Rzeznia/Rzeznia/Rzeznik.h
-	"biblioteki.h"
+1412183269 /home/student/Desktop/Rzeznia/Rzeznia/Rzeznik.h
 
-1411560756 source:/home/student/Desktop/Rzeznia/Rzeznia/Rzeznik.cpp
+1412183269 source:/home/student/Desktop/Rzeznia/Rzeznia/Rzeznik.cpp
 	"Rzeznik.h"
 
-1411565308 source:/home/student/Desktop/Rzeznia/Rzeznia/Rzeznia.cpp
+1412187662 source:/home/student/Desktop/Rzeznia/Rzeznia/Rzeznia.cpp
 	"Rzeznia.h"
 
-1411563654 /home/student/Desktop/Rzeznia/Rzeznia/Rzeznia.h
+1412186647 /home/student/Desktop/Rzeznia/Rzeznia/Rzeznia.h
 	"biblioteki.h"
+
+1412189674 source:/home/student/Desktop/Rzeznia/Rzeznia/produkcjaMiesa.cpp
+	"produkcjaMiesa.h"
 

@@ -13,20 +13,17 @@ int main()
     Spalarnia spal;
     Rzeznia rzeznia;
 
-    vector <Krowa*> krowki; //wektor wskaznikow na krowy lepsza by byla lista dwukierunkowa
+    vector <Zwierze*> krowki; //wektor wskaznikow na krowy lepsza by byla lista dwukierunkowa
     krowki.push_back(new Krowa);
     krowki.push_back(new Krowa);
     krowki.push_back(new Krowa);
     krowki.push_back(new Krowa);
     krowki.push_back(new Krowa);
     krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-    krowki.push_back(new Krowa);
-
-
-   // rzeznia.zabijZwierze(krowki.at(8));
+    krowki.push_back(new Swinia);
+    krowki.push_back(new Swinia);
+    krowki.push_back(new Swinia);
+    krowki.push_back(new Swinia);
 
 
 //masowe badanie krow przez weterynarza - mozna by bylo to wrzucic gdzies indziej
@@ -47,8 +44,11 @@ while(krowki.size() !=0)
 
          Zwierze *zdrowe = krowki.at(0);
             krowki.erase(krowki.begin()+0);
-          //  rzeznia.rzeznik->zakonczZywot(zdrowe); //krowa zostaje zabita i przekazana do rozparcelowania
-            rzeznia.zabijZwierze(zdrowe);
+            string mieso = rzeznia.zabijZwierze(zdrowe);
+            (rozpoznajRodzajMiesa(mieso)); ///produkuje wolowine - new Wolowina !!!!!!!!!!!!!!!wycieka PAMIEC!!!!!!!!!!!!!!!
+            ///tutaj przydaloby sie jakos zbierac to wszystko w jeden wektor czy cos...
+            //miesiwo.push_back(rozpoznajRodzajMiesa(mieso)); //vector<Mieso>miesiwo;
+            /*to nie zadziala, poniwaza rozpoznajRodzajMiesa jest funkcja void i nie zwraca konkretnego Miesa, bo Mieso to klasa abstrakcyjna*/
         }
         i++;
 }

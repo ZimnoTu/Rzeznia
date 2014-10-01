@@ -7,6 +7,6 @@ public:
     Rzeznia() {rzeznik = new Rzeznik;}
     virtual ~Rzeznia() {delete rzeznik;}
     Rzeznik *rzeznik;
-    void zabijZwierze(Zwierze *zwierzak);
+    string zabijZwierze(Zwierze *zwierzak);
 
 };

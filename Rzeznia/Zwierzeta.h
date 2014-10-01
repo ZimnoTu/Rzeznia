@@ -14,7 +14,7 @@ public:
     string gatunek;
 
     Zwierze() {numerID = rand()%500+100; zdrowe = false;}
-    virtual ~Zwierze () {cout<< "Zlikwidowano zwierze"<< endl; }
+    virtual ~Zwierze () {/*cout<< "Zlikwidowano zwierze"<< endl;*/ }
 
     virtual void poka();
 
@@ -28,5 +28,11 @@ class Krowa : public Zwierze{
     public:
     Krowa();
     virtual ~Krowa(){}
+};
+
+class Swinia : public Zwierze{
+    public:
+    Swinia();
+    virtual ~Swinia(){}
 };
 
