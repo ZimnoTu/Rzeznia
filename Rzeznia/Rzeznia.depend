@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1412189499 source:/home/student/Desktop/Rzeznia/Rzeznia/main.cpp
+1412189780 source:/home/student/Desktop/Rzeznia/Rzeznia/main.cpp
 	"biblioteki.h"
 
 1412189239 source:/home/student/Desktop/Rzeznia/Rzeznia/Zwierzeta.cpp
@@ -24,7 +24,7 @@
 	"weterynarz.h"
 	"Zwierzeta.h"
 
-1412188021 /home/student/Desktop/Rzeznia/Rzeznia/biblioteki.h
+1412190418 /home/student/Desktop/Rzeznia/Rzeznia/biblioteki.h
 	<iostream>
 	<cstdlib>
 	<cstdlib>

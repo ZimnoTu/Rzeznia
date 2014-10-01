@@ -5,7 +5,6 @@
 #include <ctime>
 #include <vector>
 
-
 #include "Zwierzeta.h"
 #include "weterynarz.h"
 #include "przerobZwierzat.h"
